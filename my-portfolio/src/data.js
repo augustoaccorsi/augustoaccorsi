@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Image Processing Microservice",
+    subtitle: "Python and React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Microservice-based application deployed at AWS",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/augustoaccorsi/autoscaling",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Automatic Autoscaling for Microservices",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Application that manages the elastiticity for microservices deployes at AWS",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/augustoaccorsi/autoscaling",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Fractal Madelbrot",
+    subtitle: "C and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/augustoaccorsi/fractal-mandelbrot",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Node API",
+    subtitle: "Node and Typescript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/augustoaccorsi/node-typescript-api",
   },
 ];
 
@@ -51,10 +51,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "ABAP",
+  "Python",
+  "Abap",
+  "Java",
+  "C",
+  "C#",
+  "AWS",
+  "Docker"
 ];
