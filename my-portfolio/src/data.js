@@ -53,7 +53,6 @@ export const testimonials = [
 export const skills = [
   "ABAP",
   "Python",
-  "Abap",
   "Java",
   "C",
   "C#",
