@@ -4,7 +4,6 @@ export const projects = [
     subtitle: "Python and React",
     description:
       "Microservice-based application deployed at AWS",
-    image: "./project-1.gif",
     link: "https://github.com/augustoaccorsi/autoscaling",
   },
   {
@@ -12,14 +11,13 @@ export const projects = [
     subtitle: "Python",
     description:
       "Application that manages the elastiticity for microservices deployes at AWS",
-    image: "./project-2.gif",
     link: "https://github.com/augustoaccorsi/autoscaling",
   },
   {
     title: "Fractal Madelbrot",
     subtitle: "C and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Fractal Madelbrot created with threads",
     image: "./project-3.gif",
     link: "https://github.com/augustoaccorsi/fractal-mandelbrot",
   },
@@ -27,8 +25,7 @@ export const projects = [
     title: "Node API",
     subtitle: "Node and Typescript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+      "API created with Node.js from zero to production",
     link: "https://github.com/augustoaccorsi/node-typescript-api",
   },
 ];
