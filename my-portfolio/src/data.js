@@ -10,7 +10,7 @@ export const projects = [
     title: "Automatic Autoscaling for Microservices",
     subtitle: "Python",
     description:
-      "Application that manages the elastiticity for microservices deployes at AWS",
+      "Application that manages microservices deployed at AWS",
     link: "https://github.com/augustoaccorsi/autoscaling",
   },
   {
@@ -18,7 +18,6 @@ export const projects = [
     subtitle: "C and Python",
     description:
       "Fractal Madelbrot created with threads",
-    image: "./project-3.gif",
     link: "https://github.com/augustoaccorsi/fractal-mandelbrot",
   },
   {
