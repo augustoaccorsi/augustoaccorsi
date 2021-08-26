@@ -1,9 +1,18 @@
 import React from "react";
+import apiKey from "../emailkey.js";
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+
+  const SERVICE_ID = apiKey.SERVICE_ID;
+  const TEMPLATE_ID = apiKey.TEMPLATE_ID;
+  const USER_ID = apiKey.USER_ID;
+
+
+  //email.init(emailkey.TEMPLATE_ID);
 
   function encode(data) {
     return Object.keys(data)
@@ -13,16 +22,17 @@ export default function Contact() {
       .join("&");
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents default refresh by the browser
+    emailjs.sendForm(`gmail`, TEMPLATE_ID, e.target, USER_ID)
+    .then((result) => {
+    alert("Message Sent, I will get back to you shortly", result.text);
+    },
+    (error) => {
+    alert("An error occurred, Please try again", error.text);
+    });
+    };
 
 return (
     <section id="contact" className="relative">
@@ -83,7 +93,7 @@ return (
               id="name"
               name="name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => setName(e.target.name)}
             />
           </div>
           <div className="relative mb-4">
@@ -95,7 +105,7 @@ return (
               id="email"
               name="email"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.email)}
             />
           </div>
           <div className="relative mb-4">
@@ -108,7 +118,7 @@ return (
               id="message"
               name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={(e) => setMessage(e.target.message)}
             />
           </div>
           <button
