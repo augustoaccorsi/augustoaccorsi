@@ -1,5 +1,4 @@
 import React from "react";
-import apiKey from "../emailkey.js";
 import emailjs from 'emailjs-com';
 
 export default function Contact() {
@@ -7,32 +6,18 @@ export default function Contact() {
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
-  const SERVICE_ID = apiKey.SERVICE_ID;
-  const TEMPLATE_ID = apiKey.TEMPLATE_ID;
-  const USER_ID = apiKey.USER_ID;
-
-
-  //email.init(emailkey.TEMPLATE_ID);
-
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+          alert("Message Sent, I will get back to you shortly", result.text);
+      }, (error) => {
+          console.log(error.text);
+          alert("An error occurred, Please try again", error.text);
+      });
+      e.target.reset()
   }
-
-
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevents default refresh by the browser
-    emailjs.sendForm(`gmail`, TEMPLATE_ID, e.target, USER_ID)
-    .then((result) => {
-    alert("Message Sent, I will get back to you shortly", result.text);
-    },
-    (error) => {
-    alert("An error occurred, Please try again", error.text);
-    });
-    };
 
 return (
     <section id="contact" className="relative">
@@ -76,7 +61,7 @@ return (
         <form
           netlify
           name="contact"
-          onSubmit={handleSubmit}
+          onSubmit={sendEmail}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
