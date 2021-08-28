@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import initFontAwesome from "./initFontAwesome";
 initFontAwesome();
 
-require('dotenv').config()
+//require('dotenv').config()
 
 export default function App() {
   return (
