@@ -1,5 +1,5 @@
 import React from "react";
-//import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -7,7 +7,7 @@ export default function Contact() {
   const [message, setMessage] = React.useState("");
 
   function sendEmail(e) {
- /*   e.preventDefault();
+   e.preventDefault();
     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
       .then((result) => {
           console.log(result.text);
@@ -16,7 +16,7 @@ export default function Contact() {
           console.log(error.text);
           alert("An error occurred, Please try again", error.text);
       });
-      e.target.reset() */
+      e.target.reset()
   }
 
 return (
