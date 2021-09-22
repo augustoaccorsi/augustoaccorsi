@@ -1,4 +1,4 @@
-### Hi there, I am Augusto 👋
+<h1 align="center">Hi there, I am Augusto 👋</h1>
 
 <!--
 **augustoaccorsi/augustoaccorsi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
