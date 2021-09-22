@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 🌱 I’m currently learning Spring Boot
+
 📫 How to reach me **augusto.acorsi@gmail.com**
 
 <details>
