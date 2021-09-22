@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-- 📫 How to reach me **augusto.acorsi@gmail.com**
+📫 How to reach me **augusto.acorsi@gmail.com**
 
 <details>
 <summary>Click for GitHub Stats</summary>
