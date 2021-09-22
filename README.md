@@ -14,15 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# Social Media
-
-# About me
-
 - 📫 How to reach me **augusto.acorsi@gmail.com**
-
-# Languages and Tools
-
-# Statistics
 
 <details>
 <summary>Click for GitHub Stats</summary>
