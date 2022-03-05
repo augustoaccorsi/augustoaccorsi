@@ -6,6 +6,7 @@ import Home from "./components/home";
 import Resume from "./components/resume";
 import Blog from "./components/blog";
 import Contact from "./components/contact";
+import Skills from "./components/skills";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Navbar></Navbar>
         <Home></Home>
         <About></About>
+        <Skills></Skills>
         <Resume></Resume>
         <Blog></Blog>
         <Contact></Contact>

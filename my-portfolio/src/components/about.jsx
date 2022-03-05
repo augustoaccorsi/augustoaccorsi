@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import { skills } from "../data";
+import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+
 
 
 export default class About extends Component {
@@ -40,51 +41,6 @@ export default class About extends Component {
                     Download CV
                   </a>
                 </p>
-              </div>
-            </div>
-
-            <div className="row pt-5">
-              <div className="col-md-3 mb-3">
-                <div className="section-heading">
-                  <h2>
-                    My <strong>Skills</strong>
-                  </h2>
-                </div>
-              </div>
-              <div className="col-md-9">
-
-                
-              <div>
-        <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
-          </h1>
-        </div>
-        <div>
-          {skills.map((skill) => (
-            <div className="skill">
-            <h3>{skill}</h3>
-            <div className="progress">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                style={{ width: "85%" }}
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span>85%</span>
-              </div>
-            </div>
-          </div>
-          ))}
-        </div>
-      </div> 
-               
-
-                
-
-               
               </div>
             </div>
           </div>

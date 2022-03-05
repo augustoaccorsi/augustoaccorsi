@@ -47,12 +47,49 @@ export const projects = [
   ];
   
   export const skills = [
-    "ABAP",
-    "Python",
-    "Java",
-    "C",
-    "C#",
-    "AWS",
-    "Docker"
+    {
+      name: 'ABAP',
+      image: "images/skills/abap.png"
+    },{
+      name: 'Python',
+      image: "images/skills/python.png"
+    },{
+      name: 'Java',
+      image: "images/skills/java.png"
+    },{
+      name: 'C',
+      image: "images/skills/c.png"
+    },{
+      name: 'C#',
+      image: "images/skills/c-sharp.png"
+    },
+    {
+      name: 'AWS',
+      image: "images/skills/aws.png"
+    },
+    {
+      name: 'Docker',
+      image: "images/skills/docker.png"
+    },
+    {
+      name: 'JavaScript',
+      image: "images/skills/javascript.png"
+    },
+    {
+      name: 'TypeScript',
+      image: "images/skills/typescript.png"
+    },
+    {
+      name: 'React',
+      image: "images/skills/react.png"
+    },
+    {
+      name: 'NodeJs',
+      image: "images/skills/nodejs.png"
+    },
+    {
+      name: 'SAP UI5',
+      image: "images/skills/ui5.png"
+    },
   ];
   

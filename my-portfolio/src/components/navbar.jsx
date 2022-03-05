@@ -21,9 +21,6 @@ export default class Navbar extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            <a className="navbar-brand" href="index.html">
-              Aline
-            </a>
             <div
               className="collapse navbar-collapse justify-content-md-center"
               id="navbarsExample09"
