@@ -92,4 +92,46 @@ export const projects = [
       image: "images/skills/ui5.png"
     },
   ];
+
+  export const education = [
+    {
+      title: 'Bachelor in Computer Science',
+      date: 'January 2015 - July 2021',
+      description: 'I completed my Bachelor of Computer Science in 2021 presenting a theses "Hybrelastic: A Hybrid Elasticity Strategy with Dynamic Thresholds for Microservice-based Cloud Applications", this dissertation propose a new way to manage microservices elastivily in cloud computing',
+      location: 'Universidade do Vale do Rio dos Sinos - UNISINOS'
+    },
+    {
+      title: 'Electronics Technician Course',
+      date: 'January 2010 - December 2014',
+      description: 'I completed my Electronics Technician Course in 2014. During this time I learned a lot about eletronic and how to develop projects within it',
+      location: 'Funcação Escola Técnica Liberato Salzano Vieira da Cunha'
+    }
+  ]
+
+  export const jobs = [
+    {
+      title: 'Softare Developer',
+      date: 'March 2017 - Now',
+      description: '',
+      location: 'SAP Labs Latin America'
+    },
+    {
+      title: 'Softare Developer Intern',
+      date: 'September 2015 - Frebruary 2017',
+      description: '',
+      location: 'SAP Labs Latin America'
+    },
+    {
+      title: 'Softare Developer Intern',
+      date: 'February 2015 - September 2017',
+      description: '',
+      location: 'e-mine Software'
+    },
+    {
+      title: 'Softare Developer Intern',
+      date: 'September 2013 - April 2014',
+      description: '',
+      location: 'e-mine Software'
+    },
+  ]
   
