@@ -5,7 +5,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <section className="site-section" id="section-blog">
+        <section className="site-section bg-light" id="section-projects">
           <div className="container">
             <div className="row">
               <div className="col-md-12 mb-5">
@@ -33,6 +33,7 @@ export default class Projects extends Component {
               ))}
             </div>
           </div>
+          <h3>You can find more on my <a href="https://github.com/augustoaccorsi">GitHub</a></h3>
         </section>
       </div>
     );

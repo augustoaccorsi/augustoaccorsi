@@ -8,8 +8,7 @@ export default class Home extends Component {
           className="site-hero"
           style={{ backgroundImage: "url(images/home.png)" }}
           id="section-home"
-          data-stellar-background-ratio="0.5"
-        >
+          data-stellar-background-ratio="0.5">
           <div className="container">
             <div className="row intro-text align-items-center justify-content-center">
               <div className="col-md-10 text-center">
@@ -20,10 +19,7 @@ export default class Home extends Component {
                 I am a Full Stack Developer that really enjoy to explore new technologies and enhance my skills  developing some projects.
                 </p>
                 <p>
-                  <a
-                    href="#section-about"
-                    className="smoothscroll btn btn-primary px-4 py-3"
-                  >
+                  <a href="#section-about" className="smoothscroll btn btn-primary px-4 py-3">
                     About me
                   </a>
                 </p>

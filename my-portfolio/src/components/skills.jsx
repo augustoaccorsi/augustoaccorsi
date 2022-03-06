@@ -5,7 +5,7 @@ export default class Skills extends Component {
   render() {
     return (
         <div>
-        <section className="site-section  bg-light" id="section-blog">
+        <section className="site-section  bg-light" id="section-skills">
           <div className="container">
             <div className="row">
             <div className="col-md-3 mb-3">

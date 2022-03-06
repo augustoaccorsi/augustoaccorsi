@@ -4,13 +4,13 @@ export default class Blog extends Component {
   render() {
     return (
       <div>
-        <section className="site-section bg-light" id="section-contact">
+        <section className="site-section" id="section-contact">
           <div className="container">
             <div className="row">
               <div className="col-md-12 mb-5">
                 <div className="section-heading text-center">
                   <h2>
-                    Wanna <strong>Start Work</strong> With Me?
+                    Wanna <strong>Contact</strong> Me?
                   </h2>
                 </div>
               </div>
@@ -21,27 +21,27 @@ export default class Blog extends Component {
                   <div className="form-group">
                     <input
                       type="text"
-                      className="form-control px-3 py-4"
+                      className="form-control px-3 py-4 bg-light"
                       placeholder="Your Name"
                     />
                   </div>
                   <div className="form-group">
                     <input
                       type="email"
-                      className="form-control px-3 py-4"
+                      className="form-control px-3 py-4 bg-light"
                       placeholder="Your Email"
                     />
                   </div>
                   <div className="form-group">
                     <input
                       type="email"
-                      className="form-control px-3 py-4"
+                      className="form-control px-3 py-4 bg-light"
                       placeholder="Your Phone"
                     />
                   </div>
                   <div className="form-group mb-5">
                     <textarea
-                      className="form-control px-3 py-4"
+                      className="form-control px-3 py-4 bg-light"
                       cols="30"
                       rows="10"
                       placeholder="Write a Message"
@@ -61,18 +61,12 @@ export default class Blog extends Component {
                 <ul className="site-contact-details">
                   <li>
                     <span className="text-uppercase">Email</span>
-                    anandhuvijayan400@gmail.com
-                  </li>
-                  <li>
-                    <span className="text-uppercase">Phone</span>
-                    +49 15739 735925
+                    augusto.acorsi@gmail.com
                   </li>
 
                   <li>
                     <span className="text-uppercase">Address</span>
-                    Solmsstrasse 37A <br />
-                    Berlin, Germany <br />
-                    10961
+                    Dois Irmãos - RS, Brazil <br />
                   </li>
                 </ul>
               </div>
@@ -86,15 +80,7 @@ export default class Blog extends Component {
               <div className="col-md-12 text-center">
                 <p>
                   <a
-                    href="https://www.facebook.com/anandhu.vijayan.5"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-item"
-                  >
-                    <span className="icon-facebook2"></span>
-                  </a>
-                  <a
-                    href="https://linkedin.com/in/anandhu-vijayan-4bb350121/ed"
+                    href="https://www.linkedin.com/in/jos%C3%A9-augusto-accorsi-9812a188/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-item"
@@ -102,15 +88,12 @@ export default class Blog extends Component {
                     <span className="icon-linkedin2"></span>
                   </a>
                   <a
-                    href="https://github.com/Anandhuvijayan"
+                    href="https://github.com/augustoaccorsi"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-item"
                   >
                     <span className="icon-github"></span>
-                  </a>
-                  <a href="#insta" className="social-item">
-                    <span className="icon-instagram2"></span>
                   </a>
                 </p>
               </div>
