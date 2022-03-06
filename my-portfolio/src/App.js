@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Resume from "./components/resume";
 import Blog from "./components/blog";
+import Projects from "./components/project";
 import Contact from "./components/contact";
 import Skills from "./components/skills";
 
@@ -17,7 +18,7 @@ class App extends Component {
         <About></About>
         <Skills></Skills>
         <Resume></Resume>
-        <Blog></Blog>
+        <Projects></Projects>
         <Contact></Contact>
       </div>
     );

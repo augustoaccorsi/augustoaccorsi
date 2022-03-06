@@ -1,32 +1,46 @@
 export const projects = [
     {
       title: "Image Processing Microservice",
-      subtitle: "Python and React",
+      language: "Python and React",
       description:
         "Microservice-based application deployed at AWS",
       link: "https://github.com/augustoaccorsi/autoscaling",
     },
     {
       title: "Automatic Autoscaling for Microservices",
-      subtitle: "Python",
+      language: "Python",
       description:
         "Application that manages microservices deployed at AWS",
       link: "https://github.com/augustoaccorsi/autoscaling",
     },
     {
       title: "Fractal Madelbrot",
-      subtitle: "C and Python",
+      language: "C and Python",
       description:
-        "Fractal Madelbrot created with threads",
+        "Fractal Madelbrot created with and without concurrency, using threads",
       link: "https://github.com/augustoaccorsi/fractal-mandelbrot",
     },
     {
       title: "Node API",
-      subtitle: "Node and Typescript",
+      language: "NodeJS and Typescript",
       description:
         "API created with Node.js from zero to production",
       link: "https://github.com/augustoaccorsi/node-typescript-api",
     },
+    {
+      title: "My Portfolio",
+      language: "Javascript and React",
+      description:
+        "Prtifolio (this one that you are reading) hosted on GitHub Pages",
+      link: "https://github.com/augustoaccorsi/augustoaccorsi",
+    },
+    {
+      title: "FinDev",
+      language: "Typescript and React",
+      description:
+        "Website to match freelancers and potential employers",
+      link: "https://github.com/FinDevUnisinos",
+    }
   ];
   
   export const testimonials = [
