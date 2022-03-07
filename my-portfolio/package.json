@@ -1,34 +1,44 @@
 {
+  "homepage": "https://augustoaccorsi.github.io/augustoaccorsi/",
   "name": "my-portfolio",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
-    "@fortawesome/react-fontawesome": "^0.1.17",
-    "@heroicons/react": "^1.0.6",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.3",
-    "@testing-library/user-event": "^13.5.0",
-    "font-awesome": "^4.7.0",
+    "-": "^0.0.1",
+    "@craco/craco": "^5.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@heroicons/react": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "emailjs": "^3.5.0",
+    "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-native-paper": "^4.11.2",
-    "react-scripts": "5.0.0",
-    "tailwind": "^4.0.0",
-    "web-vitals": "^2.1.4"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-scripts": "^1.1.5",
+    "save-dev": "^0.0.1-security"
   },
   "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.2.3",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }
