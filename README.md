@@ -24,6 +24,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+🔗 My portfolio: https://augustoaccorsi.github.io/augustoaccorsi/
+
 📫 How to reach me **augusto.acorsi@gmail.com**
 
 ## Languages
