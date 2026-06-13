@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🔗 My portfolio: https://augustoaccorsi.github.io/portifolio/
+🔗 My portfolio: https://augustoaccorsi.vercel.app/
 
 📫 How to reach me **augusto.acorsi@gmail.com**
 
